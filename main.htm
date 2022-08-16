@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<link rel="stylesheet" type="text/css" href="layout.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style type="text/css">
+	</style>
+	<title>CANVAS_PIXEL_MECHANICS</title>
+
+</head>
+<body onmouseup="mousedown=false">
+	<div id="mid">
+		<div id="tool">
+			<label id="pen">/</label>
+			<label id="ers">#</label>
+		</div>
+		<div id="canvas-base" onclick="floodFill()">
+			<canvas onmousedown="draw_p();mousedown=true" onmouseup="mousedown=false" id="gameCanvas" width="320" height="320" style="border:1px solid #d3d3d3;"></canvas>
+		</div>
+		<div id="prop">
+			<div id="prop1">
+				
+			</div>
+			<div id="prop2">
+				
+			</div>
+			<div id="prop3">
+				
+			</div>
+		</div>
+	</div>
+	<div id="bot">
+		<button>Save</button>
+		<div id="prtp"></div>
+		<div id="tmln"></div>
+	</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
